@@ -1,0 +1,136 @@
+.game {
+    width: 100%;
+    height: 100%;
+    padding: 100px 80px 70px 80px;  
+    font-size: larger;  
+}
+.game-logo {
+    text-align: center;
+}
+.game-logo img {
+    width: 140px;
+}
+.game-text {
+    text-align: center;
+    
+}
+.game-flag-bloc {
+    text-align: center;
+    
+}
+.game-flag img{
+    width: 100%;
+    height: 100%;
+}
+.game-flag{
+    overflow: hidden;
+    width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
+    margin-left: auto;
+    margin-right: auto;
+}
+.game-btn {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 9px 20px;
+    border: 1px solid var(--bs-yellow);
+    background-color: rgb(255, 221, 86);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.game-btn:hover {
+    transition: ease 0.2s;
+    background-color: transparent;
+    color: var(--bs-yellow);  
+}
+.card-flag {
+    height: 140px;
+    width: 100%;
+    animation: fade ease 0.2s;
+}
+
+
+.card{
+    background-color: #f8f9fa;
+    width: 220px!important;
+    height: 300px;
+    overflow: hidden;
+     border: 1px solid rgba(0, 0, 0, 0.4);
+     border-radius: 5px;
+     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+.flags-bloc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}  
+
+#user-input{
+    padding: 15px;
+    font-size: 20px;
+    border-width: 2px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+    margin-left: auto;
+    margin-right: auto;
+}
+#user-input:focus {
+    outline:none;
+}
+#number-select{
+    width: 100px;
+    padding: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+    margin-left: 15px;
+}
+#number-select:focus {
+    outline:none;
+}
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.game-info p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.bad-answer {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+.good-answer {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.game-inputs {
+    display: flex;
+    flex-direction: column;
+}
+.game-presentation {
+    animation: fade ease 0.2s;
+}

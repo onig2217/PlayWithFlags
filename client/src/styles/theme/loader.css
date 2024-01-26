@@ -1,0 +1,28 @@
+#loader {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    color:#F4C725;
+    background: radial-gradient(farthest-side, currentColor calc(100% - 12px),#0000 calc(100% - 10px) 0);
+    border-radius: 50%;
+    animation: s9 2s infinite linear;
+    margin: auto;
+  }
+  
+  #loader::before,
+  #loader::after {    
+    content:"";
+    grid-area: 1/1;
+    background:
+      linear-gradient(currentColor 0 0) center,
+      linear-gradient(currentColor 0 0) center;
+    background-size: 100% 20px,20px 100%;
+    background-repeat: no-repeat;
+  }
+  #loader::after {
+     transform: rotate(45deg);
+  }
+  
+  @keyframes s9 { 
+    100%{transform: rotate(1turn)}
+  }

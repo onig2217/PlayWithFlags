@@ -1,0 +1,68 @@
+.log {
+    padding: 74px 0px 74px 0px;
+    height: 100%;
+    display: flex;
+}
+.log-form {
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    margin: auto auto; 
+}
+.log-form-logo {
+    text-align: center;
+}
+.log-form-logo img {
+    width: 30%;
+}
+.log-form-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.log-form-inputs input {
+    height: 40px;
+}
+.log-form-btn-enter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    border: none;
+    width: 150px;
+    background-color: rgb(255, 221, 86);
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+}
+.log-form-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.log-animation-in {
+    animation: fadeIn 1s;
+}
+.log-animation-out {
+    animation: fadeOut 1s;
+}
+@keyframes fadeIn {
+    0% { opacity: 0;transform: translateX(30%); }
+    50% {transform: translateX(0%)}
+    100% { opacity: 1; }
+}
+@keyframes fadeOut {
+    0% { opacity: 0;transform: translateX(30%); }
+    50% {transform: translateX(0%)}
+    100% { opacity: 1; }
+}
+@keyframes fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+

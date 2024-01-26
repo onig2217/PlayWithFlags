@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Montserrat',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif!important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow-y: scroll;
+}
+html,body, #root {
+  height: 100%;
+  
+}
+
+.dark{
+  background-color: var(--bs-gray-900);
+  color: #fff;
+}
+.dark footer, .dark nav, .dark header, .dark section .card-bloc,.dark section .filter, .dark section .log-form {
+  background-color:  var(--bs-gray-800);
+  color: #fff;
+}
+.dark nav .sb-btn .active, .dark nav .sb-btn a:hover {
+  background-color:  var(--bs-gray-700);
+}
+

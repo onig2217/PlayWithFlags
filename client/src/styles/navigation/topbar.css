@@ -1,0 +1,68 @@
+.tb {
+    background-color: #f5f5f5;
+    height: 64px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: 5;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+    font-family: "Roboto",sans-serif;
+}
+.tb-content {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 4px 16px;
+}
+.tb-brand {
+    padding: 0px 5px;
+    padding-top: 5px;
+    margin-right: auto;
+    /* font-size: larger;
+    font-weight: bold; */
+}
+.tb-brand img {
+    height: 60px;
+    
+}
+.tb-btn-menu {
+    border: none;
+    font-size:xx-large;
+    background-color: transparent;
+    padding: 0px 15px 3px 10px ;
+    color: gray;
+}
+.tb-logo {
+    height: 40px;
+}
+.tb-btn {
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 9px 20px;
+
+}
+.tb-btn-login {
+    border: 1px solid var(--bs-orange);
+    background-color: transparent;
+    color: var(--bs-orange);
+}
+.tb-btn-signup {
+    border: 1px solid var(--bs-yellow);
+    background-color: rgb(255, 221, 86);
+    color: white;  
+}
+.tb-btn-login:hover {
+    transition: ease 0.2s;
+    background-color: var(--bs-orange);
+    color: #fff;
+}
+.tb-btn-signup:hover {
+    transition: ease 0.2s;
+    background-color: transparent;
+    color: var(--bs-yellow);
+    
+}
+.tb-btn-twitter , .tb-btn-instagram {
+    cursor: pointer;
+}
