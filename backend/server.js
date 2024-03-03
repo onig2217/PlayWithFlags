@@ -4,11 +4,13 @@ const port = 8080;
 const cors = require("cors");
 const db = require("./models/index");
 
+// Connected to our front
 const corsOption = {
   origin: "http://localhost:3000",
 };
 app.use(cors(corsOption));
 
+// Init the server and the database
 const initApp = async () => {
   console.log("Trying to connect to the server and the database.");
   try {
